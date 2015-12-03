@@ -488,7 +488,7 @@ PlayerSettings:
   WebGL::template: APPLICATION:Default
   additionalIl2CppArgs::additionalIl2CppArgs: 
   firstStreamedSceneWithResources: 0
-  cloudProjectId: f004d024-c21b-42d9-99a5-a1b5e10d7de0
-  projectName: 3DGeoSciences
+  cloudProjectId: 63117788-462c-47f0-8bb2-86389f07b8a2
+  projectName: 3DGeoSciences (1)
   organizationId: oras
   cloudEnabled: 0
