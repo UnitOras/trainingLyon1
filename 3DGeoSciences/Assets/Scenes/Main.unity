@@ -96,8 +96,6 @@ GameObject:
   - 33: {fileID: 554121810}
   - 135: {fileID: 554121809}
   - 23: {fileID: 554121808}
-  - 114: {fileID: 554121807}
-  - 114: {fileID: 554121806}
   m_Layer: 0
   m_Name: Terre
   m_TagString: Untagged
@@ -105,29 +103,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &554121806
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 554121805}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5cfc72e4176cadb499ffb67cfc91dff2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 10
---- !u!114 &554121807
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 554121805}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 177f46347bfd90c48a8da4e86b267d53, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!23 &554121808
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -180,7 +155,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 554121805}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 306.258209, y: 126.523224, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -197,6 +172,7 @@ GameObject:
   - 92: {fileID: 2033325696}
   - 124: {fileID: 2033325695}
   - 81: {fileID: 2033325694}
+  - 114: {fileID: 2033325699}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -265,12 +241,25 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2033325693}
-  m_LocalRotation: {x: .0871722922, y: -.899590552, z: .210452542, w: .37262255}
-  m_LocalPosition: {x: 307.308838, y: 127.258675, z: 1.05064166}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
+--- !u!114 &2033325699
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2033325693}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 177f46347bfd90c48a8da4e86b267d53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  distance: 1.20000005
+  _Sensitivity: 10
 --- !u!1 &2046465734
 GameObject:
   m_ObjectHideFlags: 0
